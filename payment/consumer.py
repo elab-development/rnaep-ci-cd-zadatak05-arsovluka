@@ -1,5 +1,5 @@
-from database import redis
-from main import Order
+from payment.database import redis
+from payment.main import Order
 import time
 
 key = 'refund_order'
